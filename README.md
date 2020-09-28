@@ -1,9 +1,9 @@
 # Introductory Algorithms
 
 Expectations
-- Beginning Algorithms, <a href="">Click Here</a>
+- Beginning Algorithms, <a href="https://github.com/MercersKitchen/Algorithms#beginning-ideas">Click Here</a>
 - Intermediate Algorithms, <a href="">Click Here</a>
-- Advanced Algorithms, <a href="">Click Here</a>
+- Advanced Algorithms, <a href="https://github.com/MercersKitchen/Algorithms#advanced-algorithms">Click Here</a>
 
 ---
 
@@ -55,6 +55,7 @@ Mathematics and Algorithms for End-user Ideas
 Use Processing.org driver with Pure Java Classes, outputted to console with no Canvas
 
 CS30 Algorithms
+- For Pure Java Ideas, see https://github.com/MercersKitchen/Advanced-Computer-Science/tree/master/Pure%20Java
 - See https://drive.google.com/drive/folders/1msz74fZNe0sCOrKuUeq9taPLa4hlsE3U
 - See https://github.com/MercersKitchen/Advanced-Computer-Science/tree/master/OPP%20Processing_JAVA/Paired%20Programming%20OPP%20Intro/Summary
 

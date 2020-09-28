@@ -19,17 +19,20 @@ Beginning Ideas:
 
 Mathematics and Algorithms for End-user Ideas
 - Counting Patterns and Concepts (how does a Math 10C count?)
+  - See: COuntingPatternsCoding.pde
   - Forwards
   - Backwards
   - Arithmetic
   - Geometric
   - Squares
-  - Combinations (slope, polynomials, etc.)
-  - Using time from the Operating System or in Processing-Java (milli-seconds from crystal)
+  - Enrichment: Combinations (slope, polynomials, etc.)
+  - Enrichment: Using time from the Operating System or in Processing-Java (milli-seconds from crystal)
 - Summarizing counting into
+  - Use Primitive Alpha-numeric leading to simplified array population with {}
   - Ranges (max - min)
   - Central Tendency: mean, median, mode
 - Start and stop counting (boundaries of variables): counting until place value change like >$100
+  - Evaluating with simple IF
   - Evaluating type of number with modulus (even vs. odd)
   - Console output to whether code makes it into IF
 - Separating the GUI Space intentionally for feedback
@@ -43,24 +46,17 @@ Mathematics and Algorithms for End-user Ideas
   - Delivers geometry
   - Screensize checker based on fullScreen key variables
   - Use exit(), demonstrate Processing.org reference page
-  - Transition to Happy Measles by drawing 2D Shapes to middle of canvas 
+  - Transition to Happy Measles by drawing 2D Shapes to middle of canvas
 
 ---
 
-# To Include
+# Advanced Algorithms
 
-Code for:
-
-Enrichments
-- how to take sensor data & visual data and automate programs
-- how to own your own data
+Use Processing.org driver with Pure Java Classes, outputted to console with no Canvas
 
 CS30 Algorithms
 - See https://drive.google.com/drive/folders/1msz74fZNe0sCOrKuUeq9taPLa4hlsE3U
 - See https://github.com/MercersKitchen/Advanced-Computer-Science/tree/master/OPP%20Processing_JAVA/Paired%20Programming%20OPP%20Intro/Summary
-
-Review Previous Algorithms in Pong (CS10 Algorithms)
-- Write these into an example Calculator interacting in a keyboard
 
 Search Algorithms
 - Linear Search
@@ -83,5 +79,21 @@ Additional Sorts to Explore
 
 Ideas to Include for Searching and Sorting (Using Playing Cards)
 - Counting times to touch cards (data set), introduction to Big O
+
+
+---
+
+# To Include
+
+Code for:
+
+Enrichments
+- how to take sensor data & visual data and automate programs
+- how to own your own data
+
+
+Review Previous Algorithms in Pong (CS10 Algorithms)
+- Write these into an example Calculator interacting in a keyboard
+
 
 ---

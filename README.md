@@ -1,21 +1,21 @@
 # Introductory Algorithms
 
 Expectations
+- Beginning Algorithms, <a href="">Click Here</a>
+- Intermediate Algorithms, <a href="">Click Here</a>
+- Advanced Algorithms, <a href="">Click Here</a>
 
 ---
 
 # Beginning Ideas
 
-Algorithms for making the calculator do arithmetic, we use answers
-Output to console, use character escapes
-Use primitive variables
-Exposure to iterating over array with FOR Loop for sequences and series
+Beginning Ideas:
+- Algorithms for making the calculator do arithmetic, we use answers
+- Output to console, use character escapes
+- Use primitive variables & a simple array declaration with {} population in declaration
+  - Exposure to iterating over array with FOR Loop for sequences and series
 
----
-
-# To Include
-
-Code for:
+### Ideas to create Processing Code in Above Folders
 
 Mathematics and Algorithms for End-user Ideas
 - Counting Patterns and Concepts (how does a Math 10C count?)
@@ -29,12 +29,12 @@ Mathematics and Algorithms for End-user Ideas
 - Summarizing counting into
   - Ranges (max - min)
   - Central Tendency: mean, median, mode
-- Start and stop counting (boundaries of variables)
-  Evaluating type of number with modulus
-  Console output to whether code makes it into IF
+- Start and stop counting (boundaries of variables): counting until place value change like >$100
+  - Evaluating type of number with modulus (even vs. odd)
+  - Console output to whether code makes it into IF
 - Separating the GUI Space intentionally for feedback
-  Nested counting (nested FOR Loops)
-  "Chess Board" or "Table for Tiles on a Tablet Screen"
+  - Nested counting (nested FOR Loops)
+  - "Chess Board" or "Table for Tiles on a Tablet Screen"
 - Changing Visual Data based on calculations
   - Hello World Type Programs for developing touch screens
   - Clicking Game with timer, taking best times and giving feedback on times that seem in error
@@ -42,6 +42,14 @@ Mathematics and Algorithms for End-user Ideas
   - Graphical User Interface (GUI): communication with device before program executes
   - Delivers geometry
   - Screensize checker based on fullScreen key variables
+  - Use exit(), demonstrate Processing.org reference page
+  - Transition to Happy Measles by drawing 2D Shapes to middle of canvas 
+
+---
+
+# To Include
+
+Code for:
 
 Enrichments
 - how to take sensor data & visual data and automate programs

@@ -1,5 +1,5 @@
 class Misc {
-  static String sentence = "    The quick brown fox jumps over the lazy dog.    ";
-  static String phrase = "Mercer's Kitchen";
+  static String alphebetUC = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+  static String alphebetLC = "abcdefghijklmnopqrstuvwxyz";
   
 }//End Misc

@@ -86,17 +86,29 @@ Ideas to Include for Searching and Sorting (Using Playing Cards)
 ## Student Intro Searching and Sorting Assignments
 
 **Begin with Flat Programs to test structured programming execution, then move to *Objects***.
+- Note: all object programs must be written with Processing-JAVA Drivers and Pure Java Classes
 
-- Linear Search
-  - Flat Numbers Search - Teaching Exemplar
-  - Flat Strings-word Search, single word - Teaching Exemplar
-  - Flat String- Phrase to Word copy of arrays, then search each word for a target letters
-  - Note: use Sentence with all letters of alphabet (similar to old Morse Code short sentences)
+### Assignment List and Details
+
+Linear Search
+1. Flat Numbers Search - Teaching Exemplar
+2. Flat Strings-word Search, single word - Teaching Exemplar
+3. Flat String- Phrase to Word copy of arrays, then search each word for a target letters
+- Note: use Sentence with all letters of alphabet (similar to old Morse Code short sentences)
+
 - Purpose of Linear Search
   - Review `print()`, `println()`, and `character escapes`
   - Review FOR(){} increasing Big-O
   - Review simple array searches
   - Review String Functions in Pure Java
+
+Binary Search
+- **CAUTION:** search space must be organized first, according to expectation of binary search code
+- For Example:
+  - Smallest to Largest
+  - Largest to Smallest (Numerical Values)
+  - Aphetically (knowing how to get back to original?)
+
 
 **TBA**
 

@@ -85,7 +85,7 @@ Ideas to Include for Searching and Sorting (Using Playing Cards)
 
 ## Student Intro Searching and Sorting Assignments
 
-**Begin with Flat Programs to test structured programming execution, then move to *Objects* **.
+**Begin with Flat Programs to test structured programming execution, then move to *Objects***.
 
 - Linear Search
   - **

@@ -13,10 +13,10 @@ for (int i=0; i<numbers.length; i++) {
     print(i);
   }
 }
-print("\n");
+print("\n\n");
 for (int i=0; i<numbers.length; i++) {
   if ( letter == numbers[i] ) {
     index = i;
   }//End IF
 }//End FOR
-println(index);
+println(letter, "is in the", index, "position");

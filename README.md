@@ -81,7 +81,14 @@ Additional Sorts to Explore
 Ideas to Include for Searching and Sorting (Using Playing Cards)
 - Counting times to touch cards (data set), introduction to Big O
 
+---
 
+## Student Intro Searching and Sorting Assignments
+
+**Begin with Flat Programs to test structured programming execution, then move to *Objects* **.
+
+- Linear Search
+  - **
 ---
 
 # To Include

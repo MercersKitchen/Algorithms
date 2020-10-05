@@ -88,7 +88,18 @@ Ideas to Include for Searching and Sorting (Using Playing Cards)
 **Begin with Flat Programs to test structured programming execution, then move to *Objects***.
 
 - Linear Search
-  - **
+  - Flat Numbers Search - Teaching Exemplar
+  - Flat Strings-word Search, single word - Teaching Exemplar
+  - Flat String- Phrase to Word copy of arrays, then search each word for a target letters
+  - Note: use Sentence with all letters of alphabet (similar to old Morse Code short sentences)
+- Purpose of Linear Search
+  - Review `print()`, `println()`, and `character escapes`
+  - Review FOR(){} increasing Big-O
+  - Review simple array searches
+  - Review String Functions in Pure Java
+
+**TBA**
+
 ---
 
 # To Include

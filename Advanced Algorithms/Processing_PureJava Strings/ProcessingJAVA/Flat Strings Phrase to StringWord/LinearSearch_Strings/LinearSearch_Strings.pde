@@ -1,3 +1,4 @@
+String phrase = "The quick brown fox jumps over the lazy dog.";
 String[] numbers = {"M", "e", "r", "c", "e", "r", "s", "K", "i", "t", "c", "h", "e", "n"};
 String letter = "a"; //ALso Search s or n, doesn't repeat
 int index = -1;

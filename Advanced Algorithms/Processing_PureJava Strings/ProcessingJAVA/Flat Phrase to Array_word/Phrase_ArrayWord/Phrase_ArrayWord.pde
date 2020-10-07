@@ -1,4 +1,4 @@
-String phrase = "   The quick brown fox jumps over the lazy dog.  ";
+String phrase = "   The quick brown fox jumps over the lazy dog.   ";
 String[] word = new String [9];
 
 //Use println() to view each variable ensuring it is correct
@@ -45,11 +45,11 @@ if (space != -1) {
 }
 if ( space == -1 ) {
   space = noSpace.indexOf(".");
-  if (space >=0) {
+  if (space >= 0) {
     word[8] = noSpace.substring(0, space);
     println("Period is Present");
   } else {
-    word[8] = noSpace.substring(0, noSpace.length()-1);
+    word[8] = noSpace.substring(0, noSpace.length());
     println("No Period is Present.");
   }
 }

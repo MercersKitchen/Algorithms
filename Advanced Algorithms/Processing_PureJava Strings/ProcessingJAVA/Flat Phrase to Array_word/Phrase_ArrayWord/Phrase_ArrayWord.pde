@@ -11,6 +11,38 @@ noSpace = remaining.trim();
 space = noSpace.indexOf(" ");
 word[1] = noSpace.substring(0, space);
 remaining = noSpace.substring(space);
+noSpace = remaining.trim();
+space = noSpace.indexOf(" ");
+word[2] = noSpace.substring(0, space);
+remaining = noSpace.substring(space);
+noSpace = remaining.trim();
+space = noSpace.indexOf(" ");
+word[3] = noSpace.substring(0, space);
+remaining = noSpace.substring(space);
+noSpace = remaining.trim();
+space = noSpace.indexOf(" ");
+word[4] = noSpace.substring(0, space);
+remaining = noSpace.substring(space);
+noSpace = remaining.trim();
+space = noSpace.indexOf(" ");
+word[5] = noSpace.substring(0, space);
+remaining = noSpace.substring(space);
+noSpace = remaining.trim();
+space = noSpace.indexOf(" ");
+word[6] = noSpace.substring(0, space);
+remaining = noSpace.substring(space);
+noSpace = remaining.trim();
+space = noSpace.indexOf(" ");
+word[7] = noSpace.substring(0, space);
+remaining = noSpace.substring(space);
+noSpace = remaining.trim();
+println(noSpace);
+space = noSpace.indexOf(" ");
+//Note on last word: returns arrayOutOfBounds error
+println(space);
+//word[8] = noSpace.substring(0, space);
+//remaining = noSpace.substring(space);
+//noSpace = remaining.trim();
 printArray(word);
 
 /*

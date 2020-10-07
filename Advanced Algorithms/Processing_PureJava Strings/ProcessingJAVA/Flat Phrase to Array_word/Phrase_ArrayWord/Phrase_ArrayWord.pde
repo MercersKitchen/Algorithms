@@ -1,17 +1,17 @@
 String phrase = "   The quick brown fox jumps over the lazy dog.  ";
 String[] word = new String [9];
 
-println(phrase);
+//Use println() to view each variable ensuring it is correct
+
 String noSpace = phrase.trim();
-println(noSpace);
 int space = noSpace.indexOf(" ");
-println(space);
 word[0] = noSpace.substring(0, space);
-println(word[0]);
 String remaining = noSpace.substring(space);
-println(remaining);
 noSpace = remaining.trim();
-println(noSpace);
+space = noSpace.indexOf(" ");
+word[1] = noSpace.substring(0, space);
+remaining = noSpace.substring(space);
+printArray(word);
 
 /*
 .trim()

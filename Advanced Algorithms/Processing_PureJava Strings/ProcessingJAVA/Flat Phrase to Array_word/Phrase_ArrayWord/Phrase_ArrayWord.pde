@@ -36,32 +36,21 @@ space = noSpace.indexOf(" ");
 word[7] = noSpace.substring(0, space);
 remaining = noSpace.substring(space);
 noSpace = remaining.trim();
-println(noSpace);
+//println(noSpace);
 space = noSpace.indexOf(" ");
 //Note on last word: returns arrayOutOfBounds error
-println(space);
-//word[8] = noSpace.substring(0, space);
-//remaining = noSpace.substring(space);
-//noSpace = remaining.trim();
+//println(space);
+if (space != -1) {
+  space = noSpace.indexOf(" ");
+}
+if ( space == -1 ) {
+  space = noSpace.indexOf(".");
+  if (space >=0) {
+    word[8] = noSpace.substring(0, space);
+    println("Period is Present");
+  } else {
+    word[8] = noSpace.substring(0, noSpace.length()-1);
+    println("No Period is Present.");
+  }
+}
 printArray(word);
-
-/*
-.trim()
-.indexOf( “[text]” )
-.substring( int )
-.substring( int, int )
-*/
-
-/*
-// Global Variables
-
-void setup() {
-  size(500, 300); //fullScreen(), displayWidth & displayHeight, Landscape vs. portrait views, leads to screenSize Checker
-}//End setup()
-
-void draw() {}//End draw
-
-void keyPressed () {}//End keyPressed
-
-void mousePressed() {}//End mousePressed
-*/

@@ -8,6 +8,10 @@ int space = noSpace.indexOf(" ");
 println(space);
 word[0] = noSpace.substring(0, space);
 println(word[0]);
+String remaining = noSpace.substring(space);
+println(remaining);
+noSpace = remaining.trim();
+println(noSpace);
 
 /*
 .trim()

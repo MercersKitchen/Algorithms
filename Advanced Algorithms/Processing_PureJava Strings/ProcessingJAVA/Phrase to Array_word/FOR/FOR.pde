@@ -13,7 +13,6 @@ for (int i=0; i<9; i++) {
   if ( space == -1 ) {
     space = noSpace.indexOf(".");
     if (space >= 0) {
-      word[8] = noSpace.substring(0, space);
       println("Period is Present");
     } else {
       space = noSpace.length() - 1;

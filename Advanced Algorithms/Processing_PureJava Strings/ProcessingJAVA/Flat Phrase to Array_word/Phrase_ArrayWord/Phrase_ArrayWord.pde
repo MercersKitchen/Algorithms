@@ -6,7 +6,8 @@ String noSpace = phrase.trim();
 println(noSpace);
 int space = noSpace.indexOf(" ");
 println(space);
-
+word[0] = noSpace.substring(0, space);
+println(word[0]);
 
 /*
 .trim()

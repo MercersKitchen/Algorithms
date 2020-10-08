@@ -15,7 +15,7 @@ for (int i=0; i<numbers.length; i++) {
 }
 print("\n\n");
 for (int i=0; i<numbers.length; i++) {
-  if ( letter == numbers[i] ) {
+  if ( letter.equals(numbers[i]) ) { //Note: this checks characters, not reference
     index = i;
   }//End IF
 }//End FOR

@@ -1,6 +1,6 @@
 Searching requires some organization, like alphabetical
 
-Limit to 140 Word SMS Messages
+Limit to 140 Character SMS Messages
 
 The quick brown fox jumps over the lazy dog.
 - Alphabeticalized each letter, until A-Z

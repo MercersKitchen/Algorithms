@@ -30,15 +30,3 @@ printArray(word);
 println(word.length-1, reCompare);
 if (reCompare == word.length-1) {done=true;}
 }//End WHILE
-/*
-println(" ");
- printArray(word);
- for (int i=0; i<word.length-1; i++) {
- comparison = word[i+1].compareTo(word[i]);
- if (comparison < 0) {
- String memory = word[i];
- word[i] = word[i+1];
- word[i+1] = memory;
- }
- }//End FOR
- */

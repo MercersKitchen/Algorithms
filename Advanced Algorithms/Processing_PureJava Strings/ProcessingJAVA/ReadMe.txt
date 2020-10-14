@@ -3,6 +3,7 @@ Prototyping in Numbers
 Protoyping in Strings
 Spearationg words in a sentence
 Alphebetical ordering of words as a sort
+Searching sorted word and deleting punctuation
 
 Ideas
 - Using ASCII to ID Grammer rules of sentences

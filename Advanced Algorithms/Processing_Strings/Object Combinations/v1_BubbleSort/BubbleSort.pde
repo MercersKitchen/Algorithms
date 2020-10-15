@@ -144,9 +144,3 @@ class BubbleSort {
   }//End getSorted
   //
 }//End Class
-
-/* To Include:
- Phrase to individual words
- Search words for punctation and delete punctuation
- Order the words alphebetically
- */

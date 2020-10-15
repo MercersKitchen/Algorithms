@@ -2,14 +2,78 @@ class BubbleSort {
   //Global VariablesString phrase;
   String phrase; //Trackable input phrase
   String[] sorted; //Trackable sorted phrase
+  String memoryString;
   String[] memory; //Changable memories within class
 
   //Constructor, does the complete work for Bubble Sort
   BubbleSort (String phrase) {
     this.phrase = phrase;
-    memory = phraseSMS(phrase);
+    memoryString = grammer(phrase);
+    memory = phraseSMS(memoryString);
     this.sorted = alphebeticalBubbled(memory);
   }//End Constructor
+
+  //Searching each word for punctuation
+  //Need to know what the largest English Word is
+  String grammer (String phrase) {
+    String[] phraseParts = new String[141];
+    Boolean done = false;
+    while (done == false) {
+      for (int i=0; i<phrase.length(); i++) {
+        phraseParts[i] = phrase.substring(i, i+1);
+        if ( phraseParts[i].equals(".") ) {
+          phrase = phrase.substring(0, i) + phrase.substring(i+1);
+        } else if (phraseParts[i].equals(",")) {
+          phrase = phrase.substring(0, i) + phrase.substring(i+1);
+        } else if (phraseParts[i].equals("!")) {
+          phrase = phrase.substring(0, i) + phrase.substring(i+1);
+        } else if (phraseParts[i].equals("?")) {
+          phrase = phrase.substring(0, i) + phrase.substring(i+1);
+        } else if (phraseParts[i].equals("\"")) {
+          phrase = phrase.substring(0, i) + phrase.substring(i+1);
+        } else if (phraseParts[i].equals("'")) {
+          phrase = phrase.substring(0, i) + phrase.substring(i+1);
+        } else if (phraseParts[i].equals(":")) {
+          phrase = phrase.substring(0, i) + phrase.substring(i+1);
+        } else if (phraseParts[i].equals(";")) {
+          phrase = phrase.substring(0, i) + phrase.substring(i+1);
+        } else if (phraseParts[i].equals("'")) {
+          phrase = phrase.substring(0, i) + phrase.substring(i+1);
+        } else if (phraseParts[i].equals("`")) {
+          phrase = phrase.substring(0, i) + phrase.substring(i+1);
+        } else {
+        }//End Switch Case
+      }//End FOR
+      done = true;
+      for (int i=0; i<phrase.length(); i++) {
+        phraseParts[i] = phrase.substring(i, i+1);
+        if ( phraseParts[i].equals(".") ) {
+          done = false;
+        } else if (phraseParts[i].equals(",")) {
+          done = false;
+        } else if (phraseParts[i].equals("!")) {
+          done = false;
+        } else if (phraseParts[i].equals("?")) {
+          done = false;
+        } else if (phraseParts[i].equals("\"")) {
+          done = false;
+        } else if (phraseParts[i].equals("'")) {
+          done = false;
+        } else if (phraseParts[i].equals(":")) {
+          done = false;
+        } else if (phraseParts[i].equals(";")) {
+          done = false;
+        } else if (phraseParts[i].equals("'")) {
+          done = false;
+        } else if (phraseParts[i].equals("`")) {
+          done = false;
+        } else {
+        }//End Switch Case
+      }//End FOR
+    }//End WHILE
+    //
+    return phrase;
+  }//End memoryString
 
   //SMS Array to Shortened Array, before Punctation Checked
   String[] phraseSMS (String phrase) {
@@ -29,15 +93,7 @@ class BubbleSort {
       i++;
     }//End WHILE
     if ( space == -1 ) {
-      space = noSpace.indexOf(".");
-      if (space >= 0) {
-        word[i] = noSpace.substring(0, space);
-        //println("Period is Present");
-      } else {
-        space = noSpace.length() - 1;
-        word[i] = noSpace.substring(0, space);
-        //println("No Period is Present.");
-      }
+      word[i] = noSpace;
     }//End IF
     i=0;
     while (word[i] != null) {
@@ -50,9 +106,6 @@ class BubbleSort {
     }//End IF
     return word;
   }//End phraseSMS
-
-  //Searching each word for punctuation
-  //Need to know what the largest English Word is
 
   //Alphebetical Sort with Bubble Sort
   String[] alphebeticalBubbled(String[] word) {

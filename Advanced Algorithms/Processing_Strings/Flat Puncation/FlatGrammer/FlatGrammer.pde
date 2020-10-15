@@ -1,4 +1,4 @@
-String phrase = "  The` quick!, brown, fox jump's over the lazy dog.?  :   ;";
+String phrase = "  The` quick!, brown, fox jump's over the lazy dog.?  :   ;   ";
 String[] phraseParts = new String[141];
 Boolean done = false;
 while (done == false) {

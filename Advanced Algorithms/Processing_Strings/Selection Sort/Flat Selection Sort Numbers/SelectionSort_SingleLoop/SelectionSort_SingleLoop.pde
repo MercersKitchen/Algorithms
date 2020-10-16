@@ -1,21 +1,15 @@
 //String phrase = "   The quick brown fox jumps over the lazy dog.   ";
-String[] word = {"the", "quick", "brown", "fox", "jumps", "over", "the", "lazy", "dog"};
-String memory;
-String a = "a";
-int question;
-int lowestPosition = 27;
-int indexSwitch = -1;
-printArray(word);
-int i=0, j=0;
-memory = word[j];
-for (i=j; i<word.length; i++) {
-  question = word[i].compareTo(a);
-  if (lowestPosition > question ) {
-    lowestPosition = question;
-    indexSwitch = i;
+int[] numbers = {8, 2, 4, 1, 3};
+int smallestDefinition = 0;
+int smallest = numbers[0];
+int smallestIndex = 0;
+int compare;
+println("Smallest Number", smallest, "in position", smallestIndex, "after comparing", numbers[0]);
+for (int i=0; i<numbers.length; i++) {
+  compare = numbers[i]-smallestDefinition;
+  if ( smallest > compare ) {
+    smallest = compare;
+    smallestIndex = i;
   }
-}
-word[j] = word[indexSwitch];
-word[indexSwitch] = memory;
-println("");
-printArray(word);
+  println("Smallest Number", smallest, "in position", smallestIndex, "after comparing", numbers[i]);
+}//End FOR

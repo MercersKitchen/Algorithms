@@ -1,13 +1,15 @@
 
-Prototyping in 
+Prototyping in ... to understand Bubble Sorts
 - Numbers
 - Strings
 - Removing Punctuation or grammer
 - Separating words in a sentence
 - Alphebetical ordering of words as a sort
 
+Prototyping Selection Sorts
+
 To Do
-Searching sorted word and deleting punctuation
+- 
 
 
 

@@ -10,6 +10,9 @@ void setup() {
   bubbleSort = new BubbleSort(inputPhrase);
   //Alphebetically sort using BubbleSort Constructor and Getter
   alphabeticalPhrase = bubbleSort.getSorted();
+  println("Bubble Sort");
+  printArray(alphabeticalPhrase);
+  println("Selection Sort");
   printArray(alphabeticalPhrase);
 }
 

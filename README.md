@@ -50,6 +50,18 @@ Mathematics and Algorithms for End-user Ideas
 
 ---
 
+# Intermediate Algorithms
+
+General ideas
+- Transfer data between 2 variables (making memories)
+- Using arrays (traverse, search, use values, replace, length, index, )
+
+### JavaScript
+
+### Computer App
+
+---
+
 # Advanced Algorithms
 
 Use Processing.org driver with Pure Java Classes, outputted to console with no Canvas

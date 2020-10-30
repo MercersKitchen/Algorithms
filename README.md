@@ -19,10 +19,11 @@ Beginning Ideas:
 
 Mathematics and Algorithms for End-user Ideas
 - Counting Patterns and Concepts (how does a Math 10C count?)
-  - See: COuntingPatternsCoding.pde
+  - See: CountingPatternsCoding.pde
   - Forwards
   - Backwards
   - Arithmetic
+  - "Accumulation (keeping a running total)"
   - Geometric
   - Squares
   - Enrichment: Combinations (slope, polynomials, etc.)

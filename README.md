@@ -2,7 +2,7 @@
 Computer Science is about algorithms. We use code to interpret algorithms and make a computer work.
 
 Table of Contents
-- Beginning Algorithms, <a href="https://github.com/MercersKitchen/Algorithms#beginning-ideas">Click Here</a>
+- Beginning Algorithms, <a href="https://github.com/MercersKitchen/Algorithms#beginning-algorithms">Click Here</a>
 - Intermediate Algorithms, <a href="">Click Here</a>
 - Advanced Algorithms, <a href="https://github.com/MercersKitchen/Algorithms#advanced-algorithms">Click Here</a>
 

@@ -7,6 +7,18 @@ Expectations
 
 ---
 
+Algorithms contain the following sections,
+- Triggers
+- Data to work on
+- produce at least one result
+- terminate after successful measure
+
+Building Algorithms requires "Divide a& Conquer" Concept
+- Build something small that does part of what you want
+- Add to it without changing a lot of the code already written (modularity)
+
+---
+
 # Beginning Algorithms
 
 Beginning Ideas:

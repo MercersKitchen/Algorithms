@@ -1,4 +1,5 @@
-# Introductory Algorithms
+# Algorithms
+Computer Science is about algorithms. We use code to interpret algorithms and make a computer work.
 
 Expectations
 - Beginning Algorithms, <a href="https://github.com/MercersKitchen/Algorithms#beginning-ideas">Click Here</a>

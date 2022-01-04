@@ -7,11 +7,11 @@ Expectations
 
 ---
 
-# Beginning Ideas
+# Beginning Algorithms
 
 Beginning Ideas:
-- Algorithms for making the calculator do arithmetic, we use answers
-- Output to console, use character escapes
+- Algorithms for making the computer do arithmetic, we use math
+- Output to console, use character escapes and verify variable values
 - Use primitive variables & a simple array declaration with {} population in declaration
   - Exposure to iterating over array with FOR Loop for sequences and series
 

@@ -1,7 +1,7 @@
 # Algorithms
 Computer Science is about algorithms. We use code to interpret algorithms and make a computer work.
 
-Expectations
+Table of Contents
 - Beginning Algorithms, <a href="https://github.com/MercersKitchen/Algorithms#beginning-ideas">Click Here</a>
 - Intermediate Algorithms, <a href="">Click Here</a>
 - Advanced Algorithms, <a href="https://github.com/MercersKitchen/Algorithms#advanced-algorithms">Click Here</a>
@@ -14,7 +14,7 @@ Algorithms contain the following sections,
 - produce at least one result
 - terminate after successful measure
 
-Building Algorithms requires "Divide a& Conquer" Concept
+Building Algorithms requires "Divide & Conquer" Concept
 - Build something small that does part of what you want
 - Add to it without changing a lot of the code already written (modularity)
 
@@ -28,39 +28,43 @@ Beginning Ideas:
 - Use primitive variables & a simple array declaration with {} population in declaration
   - Exposure to iterating over array with FOR Loop for sequences and series
 
-### Ideas to create Processing Code in Above Folders
+### Processing Code in Above Folders
 
-Mathematics and Algorithms for End-user Ideas
-- Counting Patterns and Concepts (how does a Math 10C count?)
-  - See: CountingPatternsCoding.pde
-  - Forwards
-  - Backwards
-  - Arithmetic
-  - "Accumulation (keeping a running total)"
-  - Geometric
-  - Squares
-  - Enrichment: Combinations (slope, polynomials, etc.)
-  - Enrichment: Using time from the Operating System or in Processing-Java (milli-seconds from crystal)
-- Summarizing counting into
-  - Use Primitive Alpha-numeric leading to simplified array population with {}
-  - Ranges (max - min)
-  - Central Tendency: mean, median, mode
-- Start and stop counting (boundaries of variables): counting until place value change like >$100
-  - Evaluating with simple IF
-  - Evaluating type of number with modulus (even vs. odd)
-  - Console output to whether code makes it into IF
-- Separating the GUI Space intentionally for feedback
-  - Nested counting (nested FOR Loops)
-  - "Chess Board" or "Table for Tiles on a Tablet Screen"
-- Changing Visual Data based on calculations
-  - Hello World Type Programs for developing touch screens
-  - Clicking Game with timer, taking best times and giving feedback on times that seem in error
-- Ratios of Width and Height using Variables: how to write a program's GUI to any monitor
-  - Graphical User Interface (GUI): communication with device before program executes
-  - Delivers geometry
-  - Screensize checker based on fullScreen key variables
-  - Use exit(), demonstrate Processing.org reference page
-  - Transition to Happy Measles by drawing 2D Shapes to middle of canvas
+Counting Patterns and Concepts (how does a Math 10C count?)
+- See: CountingPatternsCoding.pde
+- Forwards
+- Backwards
+- Arithmetic
+- "Accumulation (keeping a running total)"
+- Geometric
+- Squares
+- Enrichment: Combinations (slope, polynomials, etc.)
+- Enrichment: Using time from the Operating System or in Processing-Java (milli-seconds from crystal)
+
+Summarizing counting into
+- Use Primitive Alpha-numeric leading to simplified array population with {}
+- Ranges (max - min)
+- Central Tendency: mean, median, mode
+
+Start and stop counting (boundaries of variables): counting out money or "change"
+- Evaluating with simple IF
+- Evaluating type of number with modulus (even vs. odd)
+- Console output to whether code makes it into IF
+
+Separating the GUI Space intentionally for feedback
+- Nested counting (nested FOR Loops)
+- "Chess Board" or "Table for Tiles on a Tablet Screen"
+
+Changing Visual Data based on calculations
+- Hello World Type Programs for developing touch screens
+- Clicking Game with timer, taking best times and giving feedback on times that seem in error
+
+Ratios of Width and Height using Variables: how to write a program's GUI to any monitor
+- Graphical User Interface (GUI): communication with device before program executes
+- Delivering geometry to variables
+- Screensize checker based on fullScreen key variables
+- Use exit(), demonstrate Processing.org reference page
+- Transition to Happy Measles by drawing 2D Shapes to middle of canvas
 
 ---
 

@@ -30,8 +30,7 @@ Beginning Ideas:
 
 ### Processing Code in Above Folders
 
-Counting Patterns and Concepts (how does a Math 10C count?)
-- See: CountingPatternsCoding.pde
+Counting Patterns and Concepts, See: CountingPatternsCoding.pde
 - Forwards
 - Backwards
 - Arithmetic

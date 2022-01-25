@@ -46,6 +46,8 @@ Note: download the program and play with it until it works ... Bugs are intentio
   - Write a program to demonstrate the differences
 
 **CONTINUE HERE**
+- Boolean is Trigger, User controlled
+- Stops at ??? 1000 or zero
 
 ### Processing Code in Above Folders
 

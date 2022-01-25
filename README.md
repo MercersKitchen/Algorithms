@@ -1,6 +1,8 @@
 # Algorithms
 Computer Science is about algorithms. We use code to interpret algorithms and make a computer work.
 
+**UNDER CONSTRUCTION**
+
 Table of Contents
 - Beginning Algorithms, <a href="https://github.com/MercersKitchen/Algorithms#beginning-algorithms">Click Here</a>
 - Intermediate Algorithms, <a href="">Click Here</a>
@@ -28,10 +30,27 @@ Beginning Ideas:
 - Use primitive variables & a simple array declaration with {} population in declaration
   - Exposure to iterating over array with FOR Loop for sequences and series
 
+Note: download the program and play with it until it works ... Bugs are intentional
+
+### Teaching Apps
+- Forward: skipping counting with app start, keyBoard and mouse triggers
+  - Explore Arithmetic Operators:
+    - `+=`
+    - `=+`
+    - `-=`
+    - `=-`
+    - `*=`
+    - `=*`
+    - `/=`
+    - `=/`
+  - Write a program to demonstrate the differences
+
+**CONTINUE HERE**
+
 ### Processing Code in Above Folders
 
 Counting Patterns and Concepts, See: CountingPatternsCoding.pde
-- Forwards
+-
 - Backwards
 - Arithmetic
 - "Accumulation (keeping a running total)"

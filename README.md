@@ -34,8 +34,9 @@ Beginning Ideas:
 Note: download the program and play with it until it works ... Bugs are intentional
 
 ### Teaching Apps
-- Forward: static demonstrates `while()` (similar to `draw()`)
-- Forward: skipping counting with app start, keyBoard and mouse triggers
+- Forward_Static: static demonstrates `while()` (similar to `draw()`), output speed of crystal
+- Forward_01: skipping counting with compiler start and output speed of 60fps (visual data)
+- Forward_02: trigger is keyPress (there is an additional partial trigger of the OS, what is it?)
   - Explore Arithmetic Operators:
     - `+=`
     - `=+`
@@ -45,7 +46,7 @@ Note: download the program and play with it until it works ... Bugs are intentio
     - `=*`
     - `/=`
     - `=/`
-  - Write a program to demonstrate the differences
+  - Write programs to demonstrate the differences
 
 **CONTINUE HERE**
 - Boolean is Trigger, User controlled

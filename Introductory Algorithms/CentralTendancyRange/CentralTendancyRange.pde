@@ -13,7 +13,9 @@ void setup() {
   } else { //Odd Number
     println("Median is", numbers[median]);
   }//End IF
-  println(numbers.length);
+  // Numbers must be organized to do this, lowest to highest
+  println("The minimum of the range is", numbers[0]);
+  println("The maximum of the range is", numbers[10]);
 }//End setup()
 
 void draw() {

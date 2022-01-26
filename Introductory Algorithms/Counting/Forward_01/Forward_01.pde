@@ -1,16 +1,18 @@
 // Global Variables
 int startHere = 1;
 int skipCoutBy = 1;
-//int counting;
+int stop = 1000;
+int counting;
 
 void setup() {
-  size(500, 400); //fullScreen(), displayWidth & displayHeight
-  int counting = startHere + skipCoutBy;
+  counting = startHere + skipCoutBy;
 }
 
 void draw() {
-  //counting += skipCoutBy;
-  //println(counting);
+  if (counting <= stop) counting += skipCoutBy;
+  println(counting);
+  if (counting >= stop) noLoop(); //Easier with If-ELse
+  
 }//End draw()
 
 void keyPressed () { // Review KeyBoard Input

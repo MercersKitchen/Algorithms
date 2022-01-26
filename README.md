@@ -10,11 +10,12 @@ Table of Contents
 
 ---
 
-Algorithms contain the following sections,
+Algorithms contain the following sections ...
 - Triggers
 - Data to work on
 - produce at least one result
-- terminate after successful measure
+- terminate after successful measure'
+Make sure to identify each one in your code
 
 Building Algorithms requires "Divide & Conquer" Concept
 - Build something small that does part of what you want
@@ -33,6 +34,7 @@ Beginning Ideas:
 Note: download the program and play with it until it works ... Bugs are intentional
 
 ### Teaching Apps
+- Forward: static demonstrates `while()` (similar to `draw()`)
 - Forward: skipping counting with app start, keyBoard and mouse triggers
   - Explore Arithmetic Operators:
     - `+=`

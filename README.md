@@ -58,6 +58,18 @@ Write programs to demonstrate the differences ...
 
 Counting Patterns and Concepts, See: CountingPatternsCoding.pde
 
+Summarizing counting into Central Tendency and Range, Part 1
+- Use Primitive Alpha-numeric leading to simplified array population with {}
+- Ranges (max - min)
+- Central Tendency: mean, median
+
+Summarizing counting into Central Tendency and Range, Part 2
+- CAUTION: purpose here is mode and reading-comparing values in an array (easiest when organized, CS30 topic)
+- Reading Values into an Array (actually CS20, a little more advanced and not part of CS10) using FOR
+- Randomly picking values and assigning them to an Array (again, CS20)
+- Making a copy of an array using a FOR (making a memory without loosing original memory)
+- Finding the mode (central tendency, requires Reading Array that is now practiced 3 times)
+
 ### Processing Code in Above Folders
 
 -
@@ -65,7 +77,7 @@ Counting Patterns and Concepts, See: CountingPatternsCoding.pde
 Summarizing counting into
 - Use Primitive Alpha-numeric leading to simplified array population with {}
 - Ranges (max - min)
-- Central Tendency: mean, median, mode
+- Central Tendency: mean, median
 
 Start and stop counting (boundaries of variables): counting out money or "change"
 - Evaluating with simple IF

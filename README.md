@@ -33,7 +33,16 @@ Beginning Ideas:
 
 Note: download the program and play with it until it works ... Bugs are intentional
 
-### Teaching Apps
+### Counting
+Write programs to demonstrate the differences ...
+  - Backwards
+  - Arithmetic
+  - "Accumulation (keeping a running total)"
+  - Geometric
+  - Squares
+  - Enrichment: Combinations (slope, polynomials, etc.)
+  - Enrichment: Using time from the Operating System or in Processing-Java (milli-seconds from crystal)
+
 - Forward_Static: static demonstrates `while()` (similar to `draw()`), output speed of crystal
 - Forward_01: skipping counting with compiler start and output speed of 60fps (visual data)
 - Forward_02: trigger is keyPress (there is an additional partial trigger of the OS, what is it?)
@@ -46,24 +55,13 @@ Note: download the program and play with it until it works ... Bugs are intentio
     - `=*`
     - `/=`
     - `=/`
-  - Write programs to demonstrate the differences
 
-**CONTINUE HERE**
-- Boolean is Trigger, User controlled
-- Stops at ??? 1000 or zero
+Counting Patterns and Concepts, See: CountingPatternsCoding.pde
 
 ### Processing Code in Above Folders
 
-Counting Patterns and Concepts, See: CountingPatternsCoding.pde
 -
-- Backwards
-- Arithmetic
-- "Accumulation (keeping a running total)"
-- Geometric
-- Squares
-- Enrichment: Combinations (slope, polynomials, etc.)
-- Enrichment: Using time from the Operating System or in Processing-Java (milli-seconds from crystal)
-
+-
 Summarizing counting into
 - Use Primitive Alpha-numeric leading to simplified array population with {}
 - Ranges (max - min)

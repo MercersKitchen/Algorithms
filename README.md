@@ -10,6 +10,12 @@ Table of Contents
 
 ---
 
+Problems based on Algorithms, should lead to final project
+
+https://github.com/MercersKitchen/Algorithm-Problems
+
+---
+
 Algorithms contain the following sections ...
 - Triggers
 - Data to work on

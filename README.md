@@ -107,6 +107,144 @@ Ratios of Width and Height using Variables: how to write a program's GUI to any 
 
 ---
 
+# Between Introductory and Intermediate
+
+Modules - Looping and Branching
+
+Teacher’s Notes:
+
+========================================================================
+
+This exercise gets students to practice many simple looping and branching exercises.  
+
+There is a tricky part where, if the programmer gets a series such as 200, 100, 50, 24 they may try to compare the quotients of successive numbers.  The quotients would be 200/100 = 2, 100/50 = 2, 50/24 = 2.08.  Thus this is NOT a geometric series.  However, if they use integers for their numbers, 50/24 = 2 since integers don't hold decimal values.  Thus, they may get a false positive for this case.  It makes for an interesting discussion about why this happens.  In my solution, you will see that I multiply the numbers in the equation by 1.0 instead of 1 (or not multiplying by anything).  This is to make the result of the equation a double instead of an int.
+
+I used part 1 of the assignment for my CS10 class and part 2 for my CS20 class in the unit: Second Language Programming.  This is why the solutions are in different languages.
+
+Assignment:
+
+========================================================================
+
+Part 1:
+ 
+An arithmetic series is a series of numbers that starts with some number n0. Each number following n0 is the previous number plus some value v. So, nx+1 is the previous number nx + v.
+
+For example, if n0 = 5 and v = 15 the first four numbers in the series would be
+
+5, 20, 35, 50
+
+In this problem, you will prompt the user for n0 and n2 (the first and third numbers in the series) and then print the first 10 digits in the series separated by a single space.
+
+Input Specifications
+The first and third numbers in the series
+
+Output Specifications
+The first 10 numbers in the series separated by spaces
+
+Sample Input 1
+2
+
+6
+
+Sample Output 1
+2 4 6 8 10 12 14 16 18 20
+
+ 
+
+Part 2:
+
+A given series of numbers can be said to be arithmetic if every number nx+1 is the sum of nx and some value v. For example:
+
+2 5 8 11
+
+is arithmetic because each number can be found by taking the previous number and adding 3.
+
+A given series of numbers can be said to be geometric if every number nx+1 is the product of nx and some factor f. For example:
+
+2 6 18 54
+
+is geometric because each number can be found by taking the previous number and multiplying it by 3.
+
+Write a program that will read 4 integer values n0,n1,n2,n3 from the keyboard and state whether they represent an arithmetic series, a geometric series or neither.
+
+Sample Input 1
+2 5 8 11
+
+Sample Output 1
+arithmetic
+
+Sample Input 2
+2 6 18 54
+
+Sample Output 2
+geometric
+
+Sample Input 3
+2 5 8 12
+
+Sample Output 3
+neither
+
+
+
+Solution for Part 1(C++):
+
+========================================================================
+
+#include <iostream>
+
+using namespace std;
+
+int main() {
+
+int number1, number3, v;
+
+cin >> number1;
+
+cin >> number3;
+
+v = (number3 - number1)/2;
+
+for(int x = 0; x < 10; x++){
+
+    cout << number1 << " "; number1 += v;
+
+}
+
+}
+
+
+Solution for Part 2 (JAVA):
+
+========================================================================
+
+
+import java.util.Scanner;
+class Main {
+
+  public static void main(String[] args) {
+ 
+    Scanner input = new Scanner(System.in);
+    int number1 = input.nextInt();
+    int number2 = input.nextInt();
+    int number3 = input.nextInt();
+    int number4 = input.nextInt();
+ 
+    double difference = number2 - number1;
+    double quotient = 1.0*number2/number1;
+ 
+    if(number3 - number2 == difference && number4 - number3 == difference)
+      System.out.println("arithmetic");
+    else if (1.0*number3 / number2 == quotient && 1.0*number4 / number3 == quotient)
+      System.out.println("geometric");
+    else 
+      System.out.println("neither");
+    
+  }
+}
+
+---
+
 # Intermediate Algorithms
 
 General ideas

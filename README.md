@@ -333,5 +333,15 @@ Enrichments
 Review Previous Algorithms in Pong (CS10 Algorithms)
 - Write these into an example Calculator interacting in a keyboard
 
+CS10 
+- Display Algorithm
+- ORientation Algorithm
+- Image stretch algorithm (at once, <1)
+- OS Start Algorithm
+- User initiated algorithm
+
+
+CS20 
+- Text Calcualtor
 
 ---

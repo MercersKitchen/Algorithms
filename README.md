@@ -339,7 +339,8 @@ CS10
 - Image stretch algorithm (at once, <1)
 - OS Start Algorithm
 - User initiated algorithm
-
+- Quit Button Algorithm so no conflict between start buttons and quit button
+- 
 
 CS20 
 - Text Calcualtor
